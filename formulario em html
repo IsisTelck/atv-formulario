@@ -10,7 +10,7 @@
     <form method="post" action=" ">
     nome<input type="text" size=80 maxlength=70 placeholder="digite seu nome" name="name">
     data nascimento<input type="date">
-    rg< input type="number" size=10 placeholder="digite sem os pontos" required name="rg">
+    rg<input type="number" size=10 placeholder="digite sem os pontos" required name="rg">
     email<input type="email" size=80 name="email" >
     telefone<input type="tel" name="telefone" >
     senha<input type="password" size=10 name="senha" maxlenght=10 >
@@ -21,6 +21,7 @@
    periodo      <input type="radio" name="matutino"  > matutino
                 <input type="radio" name="vespertino"  > vespertino
                 <input type="radio" name="noturno"  > noturno
+                <br>
 
     cidade<select name="cidade">
           <option>Cascavel</option>
@@ -32,8 +33,8 @@
     observação
     </Textarea>
 
-    <img src="nome.jpg" out="logo ceep">
-    < a Href="www.com.br"> site da escola </a>
+    
+    <a Href="https://www.ceepcascavel.com.br/"> <img src="ceeplogo.jpg" out="logo ceep"></a>
     <input type="reset" value="apagar os dados">
     <input type="submit" value="gravar dados">
     </body>
