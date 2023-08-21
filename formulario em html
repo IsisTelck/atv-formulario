@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head><main>
         <meta charset="UTF-8">
         <title> Formulário em html</title>
         <link rel="stylesheet" href="estilo.css">
 
     </head>
     <body>
-    <form method="post" action=" ">
-    nome<input type="text" size=80 maxlength=70 placeholder="digite seu nome" name="name">
-    data nascimento<input type="date">
-    rg<input type="number" size=10 placeholder="digite sem os pontos" required name="rg">
-    email<input type="email" size=80 name="email" >
-    telefone<input type="tel" name="telefone" >
-    senha<input type="password" size=10 name="senha" maxlenght=10 >
-    curso   <input type="checkbox" name="curso" value="administração" > administração
-            <input type="checkbox" name="curso" value="desenvolvimento de sistemas" > desenvolvimento de sistemas
-            <input type="checkbox" name="curso" value="edificações" > edificações
-
-   periodo      <input type="radio" name="matutino"  > matutino
-                <input type="radio" name="vespertino"  > vespertino
-                <input type="radio" name="noturno"  > noturno
-                <br>
-
-    cidade<select name="cidade">
-          <option>Cascavel</option>
-          <option>Corbélia</option>
-          <option>Penha</option>
-          </select>
-
-    <Textarea rows= 30 cols=40>
-    observação
-    </Textarea>
-
     
-    <a Href="https://www.ceepcascavel.com.br/"> <img src="ceeplogo.jpg" out="logo ceep"></a>
-    <input type="reset" value="apagar os dados">
-    <input type="submit" value="gravar dados">
+        <fieldset><legend><h1>cadastro</h1></legend> 
+    <form method="post" action=" "><pre>
+    <h2>    Digite seu nome <input type="text" size=80 maxlength=70 placeholder="digite seu nome" name="name">
+
+Data de nascimento  <input type="date">
+
+            Rg      <input type="number" size=50 placeholder="digite sem os pontos" required name="rg">
+
+            email   <input type="email" size=90 name="email">
+
+         telefone   <input type="tel" name="telefone">
+
+            senha   <input type="password" size=10 name="senha" maxlenght=10>
+
+            curso     <input type="checkbox" name="curso" value="administracao"> administração
+                      <input type="checkbox" name="curso" value="desenvolvimentodesistemas"> desenvolvimento de sistemas
+                      <input type="checkbox" name="curso" value="edificacoes"> edificações
+
+            periodo <input type="radio" name="matutino"> matutino
+                    <input type="radio" name="vespertino"> vespertino
+                    <input type="radio" name="noturno"> noturno
+                
+
+            cidade<select name="cidade">
+                 <option>Cascavel</option>
+                <option>Corbélia</option>
+                <option>Penha</option>
+                </select>
+
+                <Textarea rows=15 cols=40>
+                    observação
+                </Textarea>
+
+                                                    <a Href="https://www.ceepcascavel.com.br/"><img src="ceeplogo.jpg" out="logo ceep"></a>
+
+
+                                                      <input type="reset" value="apagar os dados">
+     
+                                                      <input type="submit" value="gravar dados"></h2>
+</form>
+</fieldset>
+</main>
     </body>
     </html>
 
