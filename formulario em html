@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulário em html</title>
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    <body>
+    <form method="post" action=" ">
+    nome<input type="text" size=80 maxlength=70 placeholder="digite seu nome" name="name">
+    data nascimento<input type="date">
+    rg< input type="number" size=10 placeholder="digite sem os pontos" required name="rg">
+    email<input type="email" size=80 name="email" >
+    telefone<input type="tel" name="telefone" >
+    senha<input type="password" size=10 name="senha" maxlenght=10 >
+    curso   <input type="checkbox" name="curso" value="administração" > administração
+            <input type="checkbox" name="curso" value="desenvolvimento de sistemas" > desenvolvimento de sistemas
+            <input type="checkbox" name="curso" value="edificações" > edificações
+
+   periodo      <input type="radio" name="matutino"  > matutino
+                <input type="radio" name="vespertino"  > vespertino
+                <input type="radio" name="noturno"  > noturno
+
+    cidade<select name="cidade">
+          <option>Cascavel</option>
+          <option>Corbélia</option>
+          <option>Penha</option>
+          </select>
+
+    <Textarea rows= 30 cols=40>
+    observação
+    </Textarea>
+
+    <img src="nome.jpg" out="logo ceep">
+    < a Href="www.com.br"> site da escola </a>
+    <input type="reset" value="apagar os dados">
+    <input type="submit" value="gravar dados">
+    </body>
+    </html>
+
+
+
