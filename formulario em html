@@ -8,7 +8,8 @@
     </head>
     <body>
     
-        <fieldset><legend><h1>cadastro</h1></legend> 
+       <h1>cadastro</h1>
+       <hr color="#fff" size="5">
     <form method="post" action=" "><pre>
     <h2>    Digite seu nome <input type="text" size=80 maxlength=70 placeholder="digite seu nome" name="name">
 
@@ -26,9 +27,9 @@ Data de nascimento  <input type="date">
                       <input type="checkbox" name="curso" value="desenvolvimentodesistemas"> desenvolvimento de sistemas
                       <input type="checkbox" name="curso" value="edificacoes"> edificações
 
-            periodo <input type="radio" name="matutino"> matutino
-                    <input type="radio" name="vespertino"> vespertino
-                    <input type="radio" name="noturno"> noturno
+            periodo   <input type="radio" name="matutino"> matutino
+                      <input type="radio" name="vespertino"> vespertino
+                      <input type="radio" name="noturno"> noturno
                 
 
             cidade<select name="cidade">
@@ -37,16 +38,16 @@ Data de nascimento  <input type="date">
                 <option>Penha</option>
                 </select>
 
-                <Textarea rows=15 cols=40>
+                <Textarea rows=6 cols=40>
                     observação
                 </Textarea>
 
-                                                    <a Href="https://www.ceepcascavel.com.br/"><img src="ceeplogo.jpg" out="logo ceep"></a>
+                                            <a Href="https://www.ceepcascavel.com.br/"><img src="ceeplogo.jpg" out="logo ceep"></a>
 
 
-                                                      <input type="reset" value="apagar os dados">
+                                            <input type="reset" value="apagar os dados">
      
-                                                      <input type="submit" value="gravar dados"></h2>
+                                            <input type="submit" value="gravar dados"></h2>
 </form>
 </fieldset>
 </main>
